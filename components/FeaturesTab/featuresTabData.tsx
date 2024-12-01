@@ -6,8 +6,6 @@ const featuresTabData: FeatureTab[] = [
     title: "",
     desc1: `Reliability: Consistent and timely deliveries to meet your specific needs.`,
     desc2: `Quality Assurance: Stringent quality control measures to guarantee the highest standards.`,
-    desc3:`Expertise: Experienced team with deep industry knowledge and a customer-centric approach`,
-    desc4:`Customer Focus: Dedicated to meeting client needs and providing exceptional customer service`,
     image: "/images/features/pexels-thirdman-8940471.jpg",
     imageDark: "/images/features/pexels-thirdman-8940471.jpg",
   },
