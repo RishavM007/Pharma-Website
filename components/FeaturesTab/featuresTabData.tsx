@@ -3,9 +3,11 @@ import { FeatureTab } from "@/types/featureTab";
 const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Improving health with quality, affordable medicines for all.",
-    desc1: `Contribute to science, research, culture and provide high quality employment to Men and Women locally and abroad.`,
-    desc2: `Server members of organization by working for their true success by facilitating them achieve their intellectual, economic, and emotional potential.`,
+    title: "",
+    desc1: `Reliability: Consistent and timely deliveries to meet your specific needs.`,
+    desc2: `Quality Assurance: Stringent quality control measures to guarantee the highest standards.`,
+    desc3:`Expertise: Experienced team with deep industry knowledge and a customer-centric approach`,
+    desc4:`Customer Focus: Dedicated to meeting client needs and providing exceptional customer service`,
     image: "/images/features/pexels-thirdman-8940471.jpg",
     imageDark: "/images/features/pexels-thirdman-8940471.jpg",
   },
@@ -16,6 +18,14 @@ const featuresTabData: FeatureTab[] = [
     desc2: ``,
     image: "/images/features/pexels-edward-jenner-4031323.jpg",
     imageDark: "/images/features/pexels-edward-jenner-4031323.jpg",
+  },
+  {
+    id: "tabThree",
+    title: "Delivering Quality Healthcare Solutions at Affordable Prices",
+    desc1: `To be the preferred pharmaceutical wholesaler for government hospitals, delivering *superior products and services`,
+    desc2: ``,
+    image: "/images/features/pexels-thirdman-8940471.jpg",
+    imageDark: "/images/features/pexels-thirdman-8940471.jpg",
   },
 ];
 

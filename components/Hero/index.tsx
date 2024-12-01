@@ -18,16 +18,21 @@ const Hero = () => {
               <h1 className="mb-5 text-4xl font-bold text-black dark:text-white sm:text-5xl md:text-4xl lg:text-7xl xl:text-7xl">
                 Transforming
               </h1>
-              <span className="relative block text-xl font-medium text-black dark:text-white sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl before:hidden before:absolute sm:before:block before:bottom-1 before:left-0 before:-z-1 before:h-1 before:w-1/2 before:bg-blue-400">
+              <span className="relative block text-xl font-medium text-black dark:text-white sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl before:hidden before:absolute sm:before:block before:bottom-1">
                 Healthcare with{" "} Pharmaceutical Excellence
               </span>
+              <span className="mt-10 text-sm font-medium sm:text-sm md:text-sm lg:text-sm xl:text-sm">
+                Your Reliable Partner for Pharmaceutical Supply Chain Solutions.
+              </span>
+              <a href="/contact-us">
+                <button
+                  aria-label="get started button"
+                  className="mt-8 flex items-center justify-center rounded-full bg-black px-6 py-2 text-white transition duration-300 ease-in-out hover:bg-gray-800 dark:bg-btndark dark:hover:bg-gray-900 sm:mt-10 sm:px-7 sm:py-3 md:px-8 md:py-4"
+                >
+                  Contact Us
+                </button>
+              </a>
 
-              <button
-                aria-label="get started button"
-                className="mt-8 flex items-center justify-center rounded-full bg-black px-6 py-2 text-white transition duration-300 ease-in-out hover:bg-gray-800 dark:bg-btndark dark:hover:bg-gray-900 sm:mt-10 sm:px-7 sm:py-3 md:px-8 md:py-4"
-              >
-                Contact Us
-              </button>
             </div>
 
 

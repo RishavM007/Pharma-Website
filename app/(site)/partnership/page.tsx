@@ -78,14 +78,16 @@ const PartnershipPage = () => {
               viewport={{ once: true }}
               className="w-full rounded-lg bg-white p-8 shadow-md dark:bg-black md:w-3/5 lg:w-3/4 xl:p-12"
             >
-              <h3 className="mb-4 text-2xl font-semibold text-black dark:text-white">
-                Key Partnership Areas
+              <h3 className="mb-4 text-lg font-light text-black dark:text-white">
+              We invite pharmaceutical manufacturers and distributors to explore partnership opportunities with <span className="font-bold">Sur AlTuriaq</span>. By collaborating with us, you can:
+
               </h3>
-              <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700 dark:text-gray-300">
-                <li>Technology Innovation</li>
-                <li>Strategic Alliances</li>
-                <li>Global Collaboration</li>
-                <li>Social Responsibility</li>
+              <ul className="list-disc pl-5 space-y-2 text-[15px] my-10 text-gray-700 dark:text-gray-300">
+                <li><span className="font-bold text-lg">Expand Your Market Reach</span>: Access a wider customer base through our extensive network of government hospital clients.
+                </li>
+                <li><span className="font-bold text-lg">Enhance Supply Chain Efficiency</span>: Leverage our efficient distribution network and *strong relationships* with government agencies.
+                </li>
+                
               </ul>
             </motion.div>
           </div>
@@ -129,16 +131,6 @@ const PartnershipPage = () => {
                 Looking ahead, we envision growing alongside our partners, exploring new opportunities, and paving the way for a future where collaboration leads to innovation and success.
               </p>
             </motion.div>
-          </div>
-
-          {/* Support Button */}
-          <div className="text-center mt-16">
-            <a
-              href="/support" // Using anchor link to navigate to support page
-              className="bg-blue-600 text-white py-3 px-6 rounded-full text-lg hover:bg-blue-700 transition-colors duration-300"
-            >
-              Get Support
-            </a>
           </div>
         </div>
       </section>

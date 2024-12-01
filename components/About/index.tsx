@@ -8,7 +8,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-     <section id="features" className="pb-10 lg:pb-20 xl:pb-10">
+      <section id="features" className="pb-10 lg:pb-20 xl:pb-10">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
@@ -18,8 +18,8 @@ const About = () => {
               description: ``,
             }}
           />
-          </div>
-          </section>
+        </div>
+      </section>
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
@@ -42,22 +42,23 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              Innovative Healthcare Solutions for a  {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-               Better Tomorrow
-                </span>
+              <h2 className="relative mb-6 text-md leading-7 font-light text-black dark:text-white xl:text-md">
+              <span className="font-bold text-lg">Sur AlTuriaq</span> is a leading pharmaceutical wholesaler, providing <span className="font-bold">high-quality, affordable medication</span> to government hospitals. Our mission is to ensure the <span className="font-bold">timely and reliable supply of essential medicines</span>  and <span className="font-bold">dedicated patient care. We are committed to exceeding expectations and building strong, long-lasting relationships</span> with our clients.
+
+
               </h2>
               <div>
                 <a
                   href="#"
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
-                 
-                  <span className="duration-300 group-hover:pr-2">
-                    Know More
-                  </span>
-                  
+                <a href="/about" className="group">
+  <span className="duration-300 group-hover:pr-2">
+    Know More
+  </span>
+</a>
+
+
                   <svg
                     width="14"
                     height="14"
@@ -87,18 +88,20 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[700/526.5] md:block md:w-1/2"
             >
-              <Image
-                src="/images/about/pexels-pavel-danilyuk-8442447.jpg"
-                alt="About"
-                className="dark:hidden rounded-3xl"
-                fill
-              />
-              <Image
-                src="/images/about/pexels-pavel-danilyuk-8442447.jpg"
-                alt="About"
-                className="hidden dark:block rounded-3xl"
-                fill
-              />
+<Image
+  src="/images/about/pexels-pavel-danilyuk-8442447.jpg"
+  alt="About"
+  className="dark:hidden rounded-3xl"
+  fill
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+/>
+<Image
+  src="/images/about/pexels-pavel-danilyuk-8442447.jpg"
+  alt="About"
+  className="hidden dark:block rounded-3xl"
+  fill
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+/>
             </motion.div>
           </div>
         </div>

@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Our Mission
+                  Why Choose Us
                 </button>
               </div>
             </div>
@@ -86,7 +86,7 @@ const FeaturesTab = () => {
                 </button>
               </div>
             </div>
-            {/* <div
+            <div
               onClick={() => setCurrentTab("tabThree")}
               className={`relative flex w-full cursor-pointer items-center gap-4 border-b border-stroke px-6 py-2 last:border-0 dark:border-strokedark md:w-auto md:border-0 xl:px-13.5 xl:py-5 ${
                 currentTab === "tabThree"
@@ -101,10 +101,11 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Our Vision
+                  Our Mission
                 </button>
               </div>
-            </div> */}
+            </div>
+       
           </motion.div>
           {/* <!-- Tab Menues End --> */}
 

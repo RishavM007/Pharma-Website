@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const VerticalCards = () => {
@@ -79,14 +80,51 @@ const VerticalCards = () => {
 
   return (
     <section className="py-20 mt-10">
-
+      
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-5">
-            Our Focus
+        Government Hospital Partnerships
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">
-          Explore the range of solutions we offer to enhance your experience.
-        </p>
+        <p className="text-md mx-30 mb-5 sm:mx-10 md:mx-20 lg:mx-20 xl:mx-50 text-gray-600 dark:text-gray-400">
+        We specialize in serving government hospitals, providing them with a comprehensive range of pharmaceutical products. Our focus on government hospitals allows us to:
+        </p>        
+        <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 px-4 mx-20 mb-20"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
+            <motion.div
+              className="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl shadow-lg"
+              whileHover={{ scale: 1.05 }}
+            >
+              <h3 className="text-md font-bold text-gray-900 dark:text-white mb-3 ">
+              Tailored Services to meet the specific requirements of government hospitals.
+              </h3>
+              
+            </motion.div>
+            <motion.div
+              className="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl shadow-lg"
+              whileHover={{ scale: 1.05 }}
+            >
+              <h3 className="text-md font-bold text-gray-900 dark:text-white mb-3">
+              Streamlined Procurement to Simplify the procurement process for government agencies.
+
+              </h3>
+              
+            </motion.div>
+            <motion.div
+              className="bg-gray-50 dark:bg-gray-700 p-8 rounded-xl shadow-lg"
+              whileHover={{ scale: 1.05 }}
+            >
+              <h3 className="text-md font-bold text-gray-900 dark:text-white mb-3">
+              We ensure Supply Chain Security and Mitigate supply chain risks and disruptions to ensure a continuous supply of medications.
+              </h3>
+              
+            </motion.div>
+          </motion.div>
+        
+
       </header>
 
       {/* Grid Layout for Cards */}

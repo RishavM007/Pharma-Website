@@ -43,8 +43,8 @@ const Footer = () => {
                     alt="Logo"
                     className="hidden dark:block"
                   /> */}
-                  <h2 className="text-2xl font-extrabold uppercase tracking-wide text-gray-800 dark:text-gray-200 mt-10">
-                Sur <span className="text-blue-500">Al-Tariaq</span>
+                  <h2 className="text-2xl font-extrabold uppercase tracking-wide text-gray-800 dark:text-gray-200">
+                Sur <span className="text-blue-500">Al-Turiaq</span>
               </h2>
                 </a>
 
@@ -56,11 +56,21 @@ const Footer = () => {
                   contact
                 </p>
                 <a
+                  href="tel:+966533636592"
+                  className="text-sm font-light block text-black dark:text-white"
+                >
+                  +966-533-636-592
+                </a>
+                <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  className="text-sm font-light text-black dark:text-white"
                 >
                   info@satpco.com
                 </a>
+                <p className="mb-1.5 mt-6  text-sectiontitle uppercase tracking-[5px]">
+                  Address
+                </p>
+                <p className="text-md font-light text-black dark:text-white">Riyadh-District, Riyadh, Kingdom of Saudi Arabia</p>
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -86,92 +96,50 @@ const Footer = () => {
                     Our Links
                   </h4>
 
-                  <ul>
+                  <ul className="flex flex-col sm:flex-col lg:flex-row md:flex-row lg:gap-3 md: gap-3">
                     <li>
                       <a
-                        href="#"
+                        href="/about"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Home
+                        About Us
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/focus"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        Focus Area
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/strategy"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Careers
+                        Strategy
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/partnership"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Pricing
-                      </a>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white mr-80">
-                    Support
-                  </h4>
-
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Company
+                        Partnership
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/career"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        Career
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
+                        href="/contact-us"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Contact Us
@@ -179,6 +147,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </motion.div>
+
+               
               </div>
             </div>
           </div>
@@ -233,7 +203,8 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Sur Al-Turiaq. All rights reserved | Designed and Developed by <a href="www.Bixeltek.com"> Bixeltek</a>
+               
               </p>
             </motion.div>
 
@@ -332,9 +303,7 @@ const Footer = () => {
             </motion.div>
           </div>
           {/* <!-- Footer Bottom --> */}
-          <div className="text-center py-3">
-            <p className="text-sm text-gray-600 dark:text-gray-300 mr-12">MADE BY BIXELTEK</p>
-          </div>
+          
         </div>
         
       </footer>

@@ -39,7 +39,7 @@ const AboutUs = () => {
               fill
               priority
             />
-          </div>
+          </div>           
 
           {/* Main Content */}
           <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:justify-between xl:gap-20">
@@ -60,12 +60,11 @@ const AboutUs = () => {
               </h2>
               <p className="mb-5 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
                 Welcome to our company! We are committed to providing innovative
-                solutions and exceptional services to our customers. Our team is
-                dedicated to making a positive impact through creativity,
-                collaboration, and integrity.
+                solutions and exceptional services to our customers.
               </p>
               <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                Headquartered in Riyadh, Saudi Arabia, our company was founded in 2024 with a mission to enhance healthcare solutions across the region. We specialize in sourcing high-quality medicines from leading global manufacturers and supplying them to government healthcare institutions within Saudi Arabia. Our commitment to excellence ensures that the products we provide adhere to the most stringent international quality standards, guaranteeing safety and efficacy for patients.
+              <span className="font-bold text-xl">Sur AlTuriaq </span>was founded in 2024 with a vision to become a trusted partner for government hospitals. Our journey began with a simple yet ambitious goal: to provide <span className="font-bold text-xl">reliable access to essential medication. Over the years, we have grown into a leading pharmaceutical wholesaler, driven by our unwavering commitment to **quality, patient care, and ethical business practices</span> .
+
               </p>
             </motion.div>
             <motion.div
@@ -79,27 +78,24 @@ const AboutUs = () => {
               viewport={{ once: true }}
               className="w-full rounded-lg bg-white p-8 shadow-md dark:bg-black md:w-3/5 lg:w-3/4 xl:p-12"
             >
-              {/* Image of MD */}
+              
               <div className="flex flex-col items-center">
-                <Image
-                  src="/images/about/ai-generated-8563151_1280.png" // Path to the MD's photo
-                  alt="Managing Director"
-                  className="rounded-full shadow-lg"
-                  width={200} // Adjust size as needed
-                  height={200} // Adjust size as needed
-                  priority
-                />
-                {/* Information about MD */}
+                
+                
                 <h2 className="mt-6 text-2xl font-semibold text-black dark:text-white xl:text-3xl">
-                  Dr. ABC XYZ
+                  Our Mission 
                 </h2>
-                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                  Dr. ABC, our esteemed Managing Director, is a visionary leader with over 20 years of experience in the healthcare sector. His commitment to excellence and innovation has propelled our company to new heights. Under his guidance, we continue to deliver impactful solutions and enhance patient care across the region.
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                 To be the preferred pharmaceutical wholesaler for government hospitals, delivering superior products and services
+                </p>
+                <h2 className="mt-6 text-2xl font-semibold text-black dark:text-white xl:text-3xl">
+                  Our Vision
+                </h2>
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                 To enhance healthcare outcomes by ensuring the availability and affordability of essential medications.
                 </p>
               </div>
             </motion.div>
-
-            {/* Image Content */}
             <motion.div
               variants={{
                 hidden: { opacity: 0, y: -20 },
@@ -107,19 +103,38 @@ const AboutUs = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1.5, delay: 0.2 }}
+              transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="w-full md:w-3/5 lg:w-[100%]"
+              className="w-full rounded-lg bg-white p-8 shadow-md dark:bg-black md:w-3/5 lg:w-3/4 xl:p-12"
             >
-              <Image
-                src="/images/about/pexels-edward-jenner-4031321.jpg"
-                alt="Our Team"
-                className="rounded-lg shadow-lg"
-                width={1000}
-                height={1200}
-                priority
-              />
+              
+              <div className="flex flex-col items-center">
+                <h1 className="mt-6 mb-10 text-3xl font-semibold text-black dark:text-white xl:text-4xl">Our Values</h1>
+
+                <h2 className="mt-6  text-2xl font-light text-black dark:text-white xl:text-3xl">
+                Integrity 
+                </h2>
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                We conduct our business with *honesty, transparency, and ethical principles</p>
+                <h2 className="mt-6 text-2xl font-light text-black dark:text-white xl:text-3xl">
+                Quality
+                </h2>
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                We are committed to delivering *high-quality products and services</p>
+                <h2 className="mt-6 text-2xl font-light text-black dark:text-white xl:text-3xl">
+                Customer Focus
+                </h2>
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                We prioritize the needs of our clients* and strive to *exceed their expectations.
+                </p>
+                <h2 className="mt-6 text-2xl font-light text-black dark:text-white xl:text-3xl">
+                Reliability
+                </h2>
+                <p className="mt-3 text-lg leading-relaxed text-gray-700 dark:text-gray-300 mx-10 text-center">
+                We ensure *timely and reliable deliveries</p>
+              </div>
             </motion.div>
+
 
 
           </div>

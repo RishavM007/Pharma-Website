@@ -66,10 +66,11 @@ const CareerPage = () => {
       >
         <div className="max-w-5xl mx-auto text-center px-4 lg:px-8">
           <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-6">
-            Our Core Values
+          Company Culture
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12">
-            We believe that a great company is built by great people. That’s why we focus on fostering a culture that is inclusive, collaborative, and growth-oriented. Here are some of the values that define us:
+          <span className="font-bold text-xl">Sur AlTuriaq</span> fosters a positive and collaborative work environment. We value our employees and offer a range of <span className="font-bold">benefits and opportunities for professional growth</span>. Our company culture is characterized by:
+
           </p>
 
           <motion.div
@@ -83,10 +84,10 @@ const CareerPage = () => {
               whileHover={{ scale: 1.05 }}
             >
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                Innovation
+              Respect
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                We value forward-thinking ideas that drive innovation and progress.
+              <p className="text-gray-400 dark:text-gray-400">
+              We treat each other with dignity and respect.
               </p>
             </motion.div>
             <motion.div
@@ -94,10 +95,10 @@ const CareerPage = () => {
               whileHover={{ scale: 1.05 }}
             >
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                Collaboration
+              Teamwork
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                We work together to achieve common goals and celebrate our collective success.
+              <p className="text-gray-400 dark:text-gray-400">
+              We work together to achieve common goals
               </p>
             </motion.div>
             <motion.div
@@ -105,10 +106,10 @@ const CareerPage = () => {
               whileHover={{ scale: 1.05 }}
             >
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                Growth
+              Work-Life Balance
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
-                We are committed to continuous learning and personal development.
+              <p className="text-gray-400 dark:text-gray-400">
+              We promote a healthy work-life balance.
               </p>
             </motion.div>
           </motion.div>
