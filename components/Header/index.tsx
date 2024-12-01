@@ -45,7 +45,7 @@ const Header = () => {
           <a href="/">
             <div className="text-center">
               <h2 className="text-2xl font-extrabold uppercase tracking-wide text-gray-800 dark:text-gray-200">
-                Sur <span className="text-blue-500">Al-Tariaq</span>
+                Sur <span className="text-blue-500">Al-Turiaq</span>
               </h2>
             </div>
           </a>

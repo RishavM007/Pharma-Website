@@ -35,7 +35,7 @@ const Integration = () => {
         <SectionHeader
           headerInfo={{
             title: `PROJECT OVERVIEW`,
-            subtitle: `Sur Al-Tariaq collaborates with leading tech companies`,
+            subtitle: `Sur Al-Turiaq collaborates with leading tech companies`,
             description: `Total solution is worth more than the parts: Integrated technical expertise during the entire facility life cycle.`,
           }}
         />
