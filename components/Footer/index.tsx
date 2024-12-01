@@ -203,7 +203,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Sur Al-Turiaq. All rights reserved | Designed and Developed by <a href="https://www.Bixeltek.com"> Bixeltek</a>
+                &copy; {new Date().getFullYear()} Sur Al-Turiaq. All rights reserved | Designed and Developed with care by <a href="https://www.Bixeltek.com"> Bixeltek</a>
                
               </p>
             </motion.div>
