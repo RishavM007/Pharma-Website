@@ -13,7 +13,7 @@ const About = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "Who are we?",
+              title: "About Us",
               subtitle: "Company based in Riyadh, Saudi Arabia. Est in 2024.",
               description: ``,
             }}
